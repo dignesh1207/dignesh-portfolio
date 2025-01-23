@@ -73,12 +73,12 @@ body {
 
 .skills-grid, .projects-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(40px, 1fr));
-    gap: 35px;
+    grid-template-columns: repeat(auto-fit, minmax(10px, 1fr));
+    gap: 30px;
     margin-top: 15px;
     margin-left: 20px;
     margin-right: 20px;
-    padding: 10 10px;
+    padding: 5 5px;
     justify-content: center;
     align-items: center;
 }
@@ -86,10 +86,11 @@ body {
 .skill-card, .project-card {
     background: #fff;
     border: 1px solid #ddd;
-    padding: 20px;
+    padding: 10px;
     border-radius: 10px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
+    align-items: center;
     transition: transform 0.3s;
     width: 90%;
     max-width: 300px;
